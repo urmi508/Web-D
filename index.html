@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <title>moving block</title>
+    </head>
+        <style>
+           
+            @keyframes  moving{
+                0% {transform: translate(0px,0px);}
+                50%{transform: translate(60px,300px);}
+                100%{transform: translate(120px,200px);}
+            }
+
+            .move{
+                height: 100px;
+                width: 100px;
+                border: 2px solid black;
+                animation: moving 2s ease-out 0s 5;
+            }
+        </style>
+     <body>
+            <div class="move">this is first div</div>
+     </body>
+
+</html>            
